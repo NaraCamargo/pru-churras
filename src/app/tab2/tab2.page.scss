@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+.botao2{
+ion-grid{
+ion-button{
+padding: 1%;
+width: 50%;
+margin: 5%;
+height: 110%;
+justify-content: center;
+font-family: 'PT Serif', serif;
+  }
+}
+
+ion-col{
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+}
+
+.botao1{
+  margin: 5%;
+  padding: 1%;
+  height: 10%;
+  font-family: 'PT Serif', serif;
+}
+
+
+ion-chip{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-family: 'PT Serif', serif;
+}
+
+.botao3{
+  ion-button{
+
+  width: 100%;
+  font-family: 'PT Serif', serif;
+}
+}
