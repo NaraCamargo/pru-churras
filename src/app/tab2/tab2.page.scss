@@ -22,7 +22,10 @@ ion-col{
   margin: 5%;
   padding: 1%;
   height: 10%;
+
+  ion-button{
   font-family: 'PT Serif', serif;
+  }
 }
 
 
@@ -49,6 +52,8 @@ ion-chip{
 
 ion-card-content{
   p{
+    font-family: 'PT Serif', serif;
     font-weight: bold;
   }
 }
+
