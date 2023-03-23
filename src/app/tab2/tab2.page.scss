@@ -2,7 +2,11 @@
 
 .botao2{
 ion-grid{
+ ion-col{
+  font-size: 130%;
+}
 ion-button{
+font-size: 90%;
 padding: 1%;
 width: 50%;
 margin: 5%;
@@ -19,11 +23,13 @@ ion-col{
 }
 
 .botao1{
+
   margin: 5%;
   padding: 1%;
   height: 10%;
 
   ion-button{
+  font-size: 90%;
   font-family: 'PT Serif', serif;
   }
 }
@@ -38,7 +44,6 @@ ion-chip{
 
 .botao3{
   ion-button{
-
   width: 100%;
   font-family: 'PT Serif', serif;
 }
@@ -54,6 +59,7 @@ ion-card-content{
   p{
     font-family: 'PT Serif', serif;
     font-weight: bold;
+    font-size: large;
   }
 }
 
