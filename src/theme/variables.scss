@@ -4,12 +4,12 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #C71585;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: #C71585;
+  --ion-color-primary-tint: #C71585;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -74,6 +74,15 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+  --ion-color-rosa: #C71585;
+	--ion-color-rosa-rgb: 199,21,133;
+	--ion-color-rosa-contrast: #ffffff;
+	--ion-color-rosa-contrast-rgb: 255,255,255;
+	--ion-color-rosa-shade: #af1275;
+	--ion-color-rosa-tint: #cd2c91;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,6 +92,7 @@
    */
 
   body {
+
     --ion-color-primary: #428cff;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
@@ -232,5 +242,14 @@
     --ion-tab-bar-background: #1f1f1f;
 
     --ion-card-background: #1e1e1e;
+
+    .ion-color-rosa {
+      --ion-color-base: var(--ion-color-rosa);
+      --ion-color-base-rgb: var(--ion-color-rosa-rgb);
+      --ion-color-contrast: var(--ion-color-rosa-contrast);
+      --ion-color-contrast-rgb: var(--ion-color-rosa-contrast-rgb);
+      --ion-color-shade: var(--ion-color-rosa-shade);
+      --ion-color-tint: var(--ion-color-rosa-tint);
+    }
   }
 }

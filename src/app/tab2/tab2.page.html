@@ -1,26 +1,26 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="rosa">
     <ion-title>
       Tab 2
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class= "back" [fullscreen]="true">
 
   <div class="botaovalendo">
   <br>
-  <ion-button color="dark" expand="block">Valendo: {{valendo}}</ion-button>
+  <ion-button color="primary" expand="block">Valendo: {{valendo}}</ion-button>
 </div>
 
 <div class="botao1">
     <ion-grid>
       <ion-row>
-        <ion-col><ion-button  color="dark" fill="outline" (click)="botao1()">01</ion-button></ion-col>
-        <ion-col><ion-button  color="dark" fill="outline" (click)="botao3()">03</ion-button></ion-col>
-        <ion-col><ion-button  color="dark" fill="outline" (click)="botao6()">06</ion-button></ion-col>
-        <ion-col><ion-button  color="dark" fill="outline" (click)="botao9()">09</ion-button></ion-col>
-        <ion-col><ion-button  color="dark" fill="outline" (click)="botao12()">12</ion-button></ion-col>
+        <ion-col><ion-button  color="primary" fill="outline" (click)="botao1()">01</ion-button></ion-col>
+        <ion-col><ion-button  color="primary" fill="outline" (click)="botao3()">03</ion-button></ion-col>
+        <ion-col><ion-button  color="primary" fill="outline" (click)="botao6()">06</ion-button></ion-col>
+        <ion-col><ion-button  color="primary" fill="outline" (click)="botao9()">09</ion-button></ion-col>
+        <ion-col><ion-button  color="primary" fill="outline" (click)="botao12()">12</ion-button></ion-col>
       </ion-row>
     </ion-grid>
 </div>
@@ -28,32 +28,32 @@
 <div class="botao2">
     <ion-grid>
       <ion-row>
-        <ion-col size="6" size-md="4" size-lg="2">Time 1</ion-col>
-        <ion-col size="6" size-md="4" size-lg="2">Time 2</ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" (click)="somaTime1()">+</ion-button></ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" (click)="somaTime2()">+</ion-button></ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" fill="outline">{{conta1}}</ion-button></ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" fill="outline">{{conta2}}</ion-button></ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" (click)="menosTime1()">-</ion-button></ion-col>
-        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="dark" (click)="menosTime2()">-</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2" class="cor">Time 1</ion-col>
+        <ion-col size="6" size-md="4" size-lg="2" class="cor" >Time 2</ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" (click)="somaTime1()">+</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" (click)="somaTime2()">+</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" fill="outline">{{conta1}}</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" fill="outline">{{conta2}}</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" (click)="menosTime1()">-</ion-button></ion-col>
+        <ion-col size="6" size-md="4" size-lg="2"><ion-button color="primary" (click)="menosTime2()">-</ion-button></ion-col>
       </ion-row>
     </ion-grid>
 </div>
 
 <br>
 <br>
-<ion-chip color = "dark">PARTIDAS</ion-chip>
+<ion-chip color = "primary">PARTIDAS</ion-chip>
     <ion-card>
-      <ion-card-content>
-      <p>Time 1: {{pontosTime1}}</p>
+      <ion-card-content  >
+      <p class="cor">Time 1: {{pontosTime1}}</p>
       <br>
-      <p>Time 2: {{pontosTime2}}</p>
+      <p class="cor"> Time 2: {{pontosTime2}}</p>
       </ion-card-content>
     </ion-card>
 
     <br>
     <div class="botao3">
-    <ion-button color="dark" expand="block" (click)="limpar()">LIMPAR </ion-button>
+    <ion-button color="primary" expand="block" (click)="limpar()">LIMPAR </ion-button>
   </div>
 
 </ion-content>
